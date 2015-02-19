@@ -1,0 +1,22 @@
+{
+  "name": "ReactBase",
+  "version": "1.0.0",
+  "description": "This is a base to start react projects from",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jmuel/ReactBase"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "James Mueller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmuel/ReactBase/issues"
+  },
+  "homepage": "https://github.com/jmuel/ReactBase"
+}
