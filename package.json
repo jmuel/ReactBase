@@ -4,7 +4,8 @@
   "description": "This is a base to start react projects from",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/jmuel/ReactBase/issues"
   },
-  "homepage": "https://github.com/jmuel/ReactBase"
+  "homepage": "https://github.com/jmuel/ReactBase",
+  "dependencies": {
+    "express": "^4.11.2",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "gulp": "^3.8.11",
+    "jsxhint": "^0.11.1",
+    "reactify": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
 }
