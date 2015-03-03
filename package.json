@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build"
+    "build": "browserify js/app.jsx -t babelify --outfile ./dist/js/bundle.js && cp -a html/ dist/",
+    "lint": "jsxhint --jsx-only js/* || true"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/jmuel/ReactBase",
   "dependencies": {
+    "babelify": "^5.0.3",
     "express": "^4.11.2",
     "react": "^0.12.2"
   },
